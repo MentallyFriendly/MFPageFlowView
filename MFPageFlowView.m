@@ -40,6 +40,7 @@
     [self setShowsHorizontalScrollIndicator:NO];
     [self setShowsVerticalScrollIndicator:NO];
     [self setClipsToBounds:YES];
+    [self setScrollsToTop:NO];
 }
 
 - (void)reloadData {
