@@ -25,6 +25,14 @@
     return self;
 }
 
+- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        [self setupDefaults];
+    }
+
+    return self;
+}
+
 - (id)initWithCoder:(NSCoder *)coder {
     if (self = [super initWithCoder:coder]) {
         [self setupDefaults];
