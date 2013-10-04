@@ -3,7 +3,7 @@
 // Mentally Friendly
 //
 // Created by Kyle Fuller on 24/09/2012.
-// Copyright (c) 2012 Mentally Friendly. All rights reserved.
+// Copyright (c) 2012-2013 Mentally Friendly. All rights reserved.
 //
 
 #import "MFPageFlowView.h"
@@ -194,3 +194,4 @@
 }
 
 @end
+
