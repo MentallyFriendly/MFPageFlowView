@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
     s.license = 'MIT'
     s.summary = 'A paging flow view, similar to the scrollable iOS App Store screenshots.'
     s.authors = { 'Kyle Fuller' => 'inbox@kylefuller.co.uk' }
-    s.homepage = 'https://bitbucket.org/mentallyfriendlyldn/mfpageflowview'
-    s.source = { :git => 'https://bitbucket.org/mentallyfriendlyldn/mfpageflowview.git', :tag => s.version.to_s }
+    s.homepage = 'https://github.com/MentallyFriendly/MFPageFlowView'
+    s.source = { :git => 'https://github.com/MentallyFriendly/MFPageFlowView.git', :tag => s.version.to_s }
 
     s.requires_arc = true
 
