@@ -48,6 +48,30 @@ layoutOrientation;
 @end
 ```
 
+## Installation
+
+[CocoaPods](http://cocoapods.org) is the recommended way to add
+MFPageFlowView to your project.
+
+Here's an example podfile that installs MFPageFlowView.
+
+```ruby
+platform :ios, '5.0'
+
+pod 'MFPageFlowView'
+```
+
+Note the specification of iOS 5.0 as the platform; leaving out the 5.0 will
+cause CocoaPods to fail with the following message:
+
+> [!] MFPageFlowView is not compatible with iOS 4.3.
+
+## Documentation
+
+There is full documentation for MFPageFlowView, it can either be found on
+[CocoaDocs](http://cocoadocs.org/docsets/MFPageFlowView) or within the headers of
+MFPageFlowView.
+
 ## License
 
 MFPageFlowView is released under the MIT license. See [LICENSE](LICENSE).
