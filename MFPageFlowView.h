@@ -12,8 +12,16 @@
 
 @protocol MFPageFlowViewDataSource <NSObject>
 
+/** Asks the data source for the amount of views to display in the flow view
+ * @param flowView The page flow view requesting this information
+ * @return The number of views in the page flow view
+ */
 - (NSUInteger)numberOfPagesInFlowView:(MFPageFlowView*)flowView;
 
+/** Asks the data source for the view to display in the flow view for an index
+ * @param flowView The page flow view requesting this information
+ * @return An object inheriting from UIView that the page flow view will use for this index. This must not be nil.
+ */
 - (UIView*)pageFlowView:(MFPageFlowView*)flowView
      viewForPageAtIndex:(NSUInteger)index;
 
