@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'MFPageFlowView'
-    s.version = '1.0.0'
+    s.version = '1.0.1'
     s.license = 'MIT'
     s.summary = 'A paging flow view, similar to the scrollable iOS App Store screenshots.'
     s.authors = { 'Kyle Fuller' => 'inbox@kylefuller.co.uk' }
